@@ -9,10 +9,10 @@ const Home = () => {
             {/* <Navbar /> */}
             {/* <DesignSystem /> */}
             {/* <KeyFeatures /> */}
-            {/* <BeautifulUI />
-            <CodeDesign /> */}
-            <ToolsCombination />
-            {/* <UITemplates /> */}
+            {/* <BeautifulUI /> */}
+            {/* <CodeDesign /> */}
+            {/* <ToolsCombination /> */}
+            <UITemplates />
             {/* <Footer /> */}
 
         </Box>
