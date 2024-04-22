@@ -1,6 +1,6 @@
 import { Box } from '@chakra-ui/react'
 import React from 'react'
-import { BeautifulUI, CodeDesign, DesignSystem, KeyFeatures, ToolsCombination, UITemplates } from '../Components'
+import { BeautifulUI, CodeDesign, DesignSystem, Facilities, KeyFeatures, ToolsCombination, UITemplates } from '../Components'
 import { Footer, Navbar } from '../Layouts'
 
 const Home = () => {
@@ -12,7 +12,8 @@ const Home = () => {
             {/* <BeautifulUI /> */}
             {/* <CodeDesign /> */}
             {/* <ToolsCombination /> */}
-            <UITemplates />
+            <Facilities />
+            {/* <UITemplates /> */}
             {/* <Footer /> */}
 
         </Box>

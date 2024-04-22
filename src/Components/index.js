@@ -4,5 +4,6 @@ export {default as BeautifulUI} from "./Beautiful UI/BeautifulUI";
 export {default as CodeDesign} from "./Code Design/CodeDesign";
 export {default as ToolsCombination} from "./Tools Combination/ToolsCombination";
 export {default as UITemplates} from "./UI Templates/UITemplates";
+export {default as Facilities} from "./Facilities/Facilities"
 
 
