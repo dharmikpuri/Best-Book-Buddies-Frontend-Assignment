@@ -8,11 +8,11 @@ const Home = () => {
         <Box>
             {/* <Navbar /> */}
             {/* <DesignSystem /> */}
-            <KeyFeatures />
+            {/* <KeyFeatures /> */}
             {/* <BeautifulUI />
-            <CodeDesign />
+            <CodeDesign /> */}
             <ToolsCombination />
-            <UITemplates /> */}
+            {/* <UITemplates /> */}
             {/* <Footer /> */}
 
         </Box>
