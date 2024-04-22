@@ -6,14 +6,14 @@ import { Footer, Navbar } from '../Layouts'
 const Home = () => {
     return (
         <Box>
-            <Navbar />
-            <DesignSystem />
+            {/* <Navbar /> */}
+            {/* <DesignSystem /> */}
             <KeyFeatures />
-            <BeautifulUI />
+            {/* <BeautifulUI />
             <CodeDesign />
             <ToolsCombination />
-            <UITemplates />
-            <Footer />
+            <UITemplates /> */}
+            {/* <Footer /> */}
 
         </Box>
     )
