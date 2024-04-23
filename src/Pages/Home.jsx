@@ -7,14 +7,14 @@ const Home = () => {
     return (
         <Box>
             {/* <Navbar /> */}
-            <DesignSystem />
+            {/* <DesignSystem />
             <KeyFeatures />
-            <BeautifulUI />
+            <BeautifulUI /> */}
             {/* <CodeDesign /> */}
-            <ToolsCombination />
+            {/* <ToolsCombination />
             <Facilities />
-            <UITemplates />
-            {/* <Footer /> */}
+            <UITemplates /> */}
+            <Footer />
 
         </Box>
     )
