@@ -11,10 +11,10 @@ const Footer = () => {
     <Box w={"90%"} m={"auto"} mt={"5rem"} mb={"2rem"}>
       <Box display={{base:"none",md:"flex",lg:"flex"}} justifyContent={"space-between"} >
         {/* BOX 1  */}
-        <Box>
+        <Box cursor={"pointer"}>
           <Text mb={"0.5rem"} fontWeight={700} fontSize={{ base: "1rem", md: "1rem", lg: "1.5rem" }} fontFamily={"Roboto"} color={"#000"}>Docs</Text>
 
-          <Text mb={"0.5rem"} fontWeight={400} fontSize={"1rem"} fontFamily={"Roboto"} color={"rgba(80, 82, 86, 1)"} >Installation</Text>
+          <Text mb={"0.5rem"} fontWeight={400} fontSize={"1rem"} fontFamily={"Roboto"} color={"rgba(80, 82, 86, 1)"} cursor={"pointer"}>Installation</Text>
 
           <Text mb={"0.5rem"} fontWeight={400} fontSize={"1rem"} fontFamily={"Roboto"} color={"rgba(80, 82, 86, 1)"} >Theme Setup</Text>
 
@@ -31,7 +31,7 @@ const Footer = () => {
         </Box>
 
         {/* BOX 2 */}
-        <Box>
+        <Box cursor={"pointer"}>
           <Text mb={"0.5rem"} fontWeight={700} fontSize={{ base: "1rem", md: "1rem", lg: "1.5rem" }} fontFamily={"Roboto"} color={"#000"} >Atomize</Text>
 
           <Text mb={"0.5rem"} fontWeight={400} fontSize={"1rem"} fontFamily={"Roboto"} color={"rgba(80, 82, 86, 1)"} >Features</Text>
@@ -43,7 +43,7 @@ const Footer = () => {
         </Box>
 
         {/* BOX 3 */}
-        <Box>
+        <Box cursor={"pointer"}>
           <Text mb={"0.5rem"} fontWeight={700} fontSize={{ base: "1rem", md: "1rem", lg: "1.5rem" }} fontFamily={"Roboto"} color={"#000"} >Resources</Text>
 
           <Text mb={"0.5rem"} fontWeight={400} fontSize={"1rem"} fontFamily={"Roboto"} color={"rgba(80, 82, 86, 1)"} >Sketch File</Text>
@@ -53,7 +53,7 @@ const Footer = () => {
         </Box>
 
         {/* BOX 4 */}
-        <Box>
+        <Box cursor={"pointer"}>
           <Text mb={"0.5rem"} fontWeight={700} fontSize={{ base: "1rem", md: "1rem", lg: "1.5rem" }} fontFamily={"Roboto"} color={"#000"} >Extras</Text>
 
           <Text mb={"0.5rem"} fontWeight={400} fontSize={"1rem"} fontFamily={"Roboto"} color={"rgba(80, 82, 86, 1)"} >Blog</Text>
@@ -66,10 +66,10 @@ const Footer = () => {
       </Box>
 
       {/* BOX FOR SOCIAL MEDIA  */}
-      <Box mt={"4rem"}>
+      <Box mt={"4rem"} >
         <Text mb={"0.5rem"} fontWeight={400} fontSize={"1rem"} fontFamily={"Roboto"} color={"rgba(0, 0, 0, 1)"} textAlign={"center"}>Designed & Developed by Dharmik Puri Goswami</Text>
 
-        <Box display={"flex"} w={{base:"70%",md:"20%"}} m={"auto"} justifyContent={"space-evenly"} mt={"1rem"}>
+        <Box display={"flex"} w={{base:"70%",md:"20%"}} m={"auto"} justifyContent={"space-evenly"} mt={"1rem"} cursor={"pointer"}>
           <Image src={gitHub} alt='github' w={"1.2rem"} h={"1.2rem"}/>
           <Image src={be} alt='Be' w={"1.2rem"} h={"1.2rem"}/>
           <Image src={ball} alt='ball' w={"1.2rem"} h={"1.2rem"}/>

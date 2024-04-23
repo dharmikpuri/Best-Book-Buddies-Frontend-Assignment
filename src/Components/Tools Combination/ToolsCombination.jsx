@@ -37,7 +37,7 @@ const ToolsCombination = () => {
 
             <Text mb={"2rem"} fontWeight={400} fontSize={{ base: "1rem", md: "1rem", lg: "1rem" }} fontFamily={"Roboto"} color={"#000"}>{el.desc}</Text>
 
-            <Box display={"flex"}>
+            <Box display={"flex"} cursor={"pointer"}>
               <Text fontWeight={500} fontSize={{ base: "1rem", md: "1rem", lg: "1rem" }} fontFamily={"Roboto"} color={"#0284fe"}
               >{el.see}  </Text>
               <Image src={arroww} ml={"0.5rem"} />

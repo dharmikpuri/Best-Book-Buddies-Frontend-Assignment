@@ -15,7 +15,10 @@ const UITemplates = () => {
 
         {/* FLEX BOX 2 */}
         <Box display={"flex"} alignItems={"center"}>
-        <Button bg={"rgba(0, 0, 0, 1)"} color={"#FFF"} py={"0.75rem"} px={"1.25rem"} borderRadius={"2rem"}>
+        <Button bg={"rgba(0, 0, 0, 1)"} color={"#FFF"} py={"0.75rem"} px={"1.25rem"} borderRadius={"2rem"} _hover={{
+          bg: " rgba(0, 0, 0, 1)",
+          boxShadow: "0 0 20px 5px #1e1d1d"
+        }}>
           Get notified <Image src={SVG} ml={"1rem"}/>
         </Button>
         </Box>

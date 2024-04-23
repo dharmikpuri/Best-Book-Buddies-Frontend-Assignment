@@ -52,7 +52,7 @@ const KeyFeatures = () => {
 
             <Text mb={"2rem"} fontWeight={400} fontSize={{ base: "1rem", md: "1rem", lg: "1rem" }} fontFamily={"Roboto"} color={"#000"}>{el.desc}</Text>
 
-            <Text  fontWeight={500} fontSize={{ base: "1rem", md: "1rem", lg: "1rem" }} fontFamily={"Roboto"} color={"#0284fe"}>{el.see}</Text>
+            <Text  fontWeight={500} fontSize={{ base: "1rem", md: "1rem", lg: "1rem" }} fontFamily={"Roboto"} color={"#0284fe"} cursor={"pointer"}>{el.see}</Text>
 
           </Box>
         ))}

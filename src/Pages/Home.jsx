@@ -10,7 +10,7 @@ const Home = () => {
             <DesignSystem />
             <KeyFeatures />
             <BeautifulUI />
-            {/* <CodeDesign /> */}
+            <CodeDesign />
             <ToolsCombination />
             <Facilities />
             <UITemplates />

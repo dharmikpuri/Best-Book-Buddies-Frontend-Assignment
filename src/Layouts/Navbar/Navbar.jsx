@@ -86,7 +86,7 @@ const Navbar = () => {
             left={"-0.03125rem"}
             _hover={{
               bg: " rgba(241, 242, 244, 1)",
-              boxShadow: "0 0 20px 5px #f2ce3f"
+              boxShadow: "0 0 20px 5px #b9bcc1"
             }}
             className='navContactBtn'
             gap={"0.5rem"}
@@ -147,7 +147,7 @@ const Navbar = () => {
             // m={"auto"}
             _hover={{
               bg: " rgba(241, 242, 244, 1)",
-              boxShadow: "0 0 20px 5px #f2ce3f"
+              boxShadow: "0 0 20px 5px #b9bcc1"
             }}
           >
             Documentation
