@@ -49,13 +49,13 @@ const BeautifulUI = () => {
     },
   ]
   return (
-    <Box w={"90%"} m={"auto"} display={"flex"} justifyContent={"space-between"} gap={"3rem"}>
-      <Box>
+    <Box w={"90%"} m={"auto"} display={"flex"} justifyContent={"space-between"} gap={"5rem"}>
+      <Box display={{base:"none",md:"block"}}>
         <Image src={DIV} alt='img' />
       </Box>
 
       <Box>
-        <Text mb={"1rem"} fontWeight={600} fontSize={{ base: "1rem", md: "1rem", lg: "3rem" }} fontFamily={"Roboto"} color={"#000"}>Beautiful & consistant UI powered with <Text as={"span"} color={"#06d7ff"}>React.</Text></Text>
+        <Text mb={"1rem"} fontWeight={600} fontSize={{ base: "2.5rem", md: "2.5rem", lg: "3rem" }} fontFamily={"Roboto"} color={"#000"}>Beautiful & consistant UI powered with <Text as={"span"} color={"#06d7ff"}>React.</Text></Text>
 
         <SimpleGrid columns={{ base: "2", md: "2", lg: "3" }} gap={"2rem"} mt={"3rem"} >
           {data.map((el, index) => (
