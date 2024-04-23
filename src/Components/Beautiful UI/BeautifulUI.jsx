@@ -1,4 +1,4 @@
-import { Box, Image, SimpleGrid, Text } from '@chakra-ui/react'
+import { Box, Divider, Image, SimpleGrid, Text } from '@chakra-ui/react'
 import React from 'react'
 import DIV from "../../assets/div.svg"
 import Atomic from "../../assets/atomic.svg"
@@ -49,7 +49,13 @@ const BeautifulUI = () => {
     },
   ]
   return (
-    <Box w={"90%"} m={"auto"} display={"flex"} justifyContent={"space-between"} gap={"5rem"}>
+    <Box w={"90%"} m={"auto"} mt={"5rem"}>
+      <Box mt={"2rem"} mb={"2rem"}>
+         <Divider  bg="gray.700" />
+         </Box>
+    <Box  display={"flex"} justifyContent={"space-between"} gap={"5rem"}>
+
+      
       <Box display={{base:"none",md:"block"}}>
         <Image src={DIV} alt='img' />
       </Box>
@@ -73,6 +79,7 @@ const BeautifulUI = () => {
       </Box>
 
 
+    </Box>
     </Box>
   )
 }

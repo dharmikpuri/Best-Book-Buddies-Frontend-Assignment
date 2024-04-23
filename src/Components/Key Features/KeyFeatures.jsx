@@ -1,4 +1,4 @@
-import { Box, Grid, Image, SimpleGrid, Text } from '@chakra-ui/react'
+import { Box, Divider, Grid, Image, SimpleGrid, Text } from '@chakra-ui/react'
 import React from 'react'
 import FlexibleGrid from "../../assets/flexibleGrid.svg"
 import StyleGuide from "../../assets/styleGrid.svg"
@@ -33,7 +33,10 @@ const KeyFeatures = () => {
     }
   ]
   return (
-    <Box w={"90%"} m={"auto"}>
+    <Box w={"90%"} m={"auto"} my={"5rem"}>
+      <Box mt={"2rem"} mb={"2rem"}>
+         <Divider  bg="gray.700" />
+         </Box>
       <Text fontWeight={500} fontSize={{ base: "1rem", md: "1.25rem", lg: "0.9rem" }} fontFamily={"Roboto"} color={"#FFF"} bg={"#000"} py={"0.5rem"} px={"1rem"} borderRadius={"3rem"} display="inline-block" mb={"2rem"}> Key features</Text>
 
       <Text fontWeight={500} fontSize={{ base: "2.2rem", md: "2rem", lg: "2.5rem" }} fontFamily={"Roboto"} color={"#000000"} mb={{ base: "0.5rem", md: "1rem", lg: "0.75rem" }} >Why Use Atomize React ?</Text>

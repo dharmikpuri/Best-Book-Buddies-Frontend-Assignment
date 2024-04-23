@@ -22,8 +22,8 @@ const Facilities = () => {
 
     ]
     return (
-        <Box w={"80%"} m={"auto"}>
-         <Box mt={"2rem"} mb={"1rem"}>
+        <Box w={"80%"} m={"auto"} mt={"5rem"}>
+         <Box mt={"2rem"} mb={"2rem"}>
          <Divider  bg="gray.700" />
          </Box>
 

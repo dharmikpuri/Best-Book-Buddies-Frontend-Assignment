@@ -8,7 +8,7 @@ import linkdIn from "../../assets/linkdIn.svg"
 
 const Footer = () => {
   return (
-    <Box w={"90%"} m={"auto"}>
+    <Box w={"90%"} m={"auto"} mt={"5rem"} mb={"2rem"}>
       <Box display={{base:"none",md:"flex",lg:"flex"}} justifyContent={"space-between"} >
         {/* BOX 1  */}
         <Box>
@@ -66,7 +66,7 @@ const Footer = () => {
       </Box>
 
       {/* BOX FOR SOCIAL MEDIA  */}
-      <Box mt={"3rem"}>
+      <Box mt={"4rem"}>
         <Text mb={"0.5rem"} fontWeight={400} fontSize={"1rem"} fontFamily={"Roboto"} color={"rgba(0, 0, 0, 1)"} textAlign={"center"}>Designed & Developed by Dharmik Puri Goswami</Text>
 
         <Box display={"flex"} w={{base:"70%",md:"20%"}} m={"auto"} justifyContent={"space-evenly"} mt={"1rem"}>

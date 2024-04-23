@@ -3,7 +3,7 @@ import React from 'react'
 import SVG from "../../assets/SVG.png"
 const UITemplates = () => {
   return (
-    <Box w={{base:"100%",md:"90%",lg:"90%"}} m={"auto"}>
+    <Box w={{base:"100%",md:"90%",lg:"90%"}} m={"auto"} mt={"5rem"}>
 
       <Flex borderRadius={{base:"none",md:"3rem"}} py={"2rem"} px={"3rem"} bg={"rgba(247, 248, 249, 1)"} justifyContent={"space-between"} flexDir={{base:"column",md:"column",lg:"row"}}>
         {/* FLEX BOX 1  */}
